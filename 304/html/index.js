@@ -45,7 +45,7 @@ function readyFn( ) {
          // 2.(Separar el texto por los espacios en blanco la variable de entrada)
          // 3.(Ordenar el resultado por index'1,0')
          const swappy = texto.split(" ")
-         texto = `${swappy[1]} , ${swappy[2]}`
+         texto = `${swappy[1]} , ${swappy[0]}`
          
          
          
