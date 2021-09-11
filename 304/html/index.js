@@ -19,33 +19,42 @@ function readyFn( ) {
         texto = texto.toString() // Este paso convierte cualquier valor en una cadena de texto (String variable)
         // ACTIVIDADES (Algoritmos):
         if ( algoritmo == "1" ) {
-        // 1) Todo el texto en Mayúsculas. // .toUpperCase()
+         // 1) Todo el texto en Mayúsculas. // .toUpperCase()
         texto == texto.toUpperCase()
         }
         if ( algoritmo == "2" ) {
-        // 2) Todo el texto en Minúsculas. // .toLowerCase()
-         texto == texto.toLowerCase()
+         // 2) Todo el texto en Minúsculas. // .toLowerCase()
+        texto == texto.toLowerCase()
         }
         if ( algoritmo == "3" ) {
-        // 3) Detectar si el texto es un número o no. // isNaN(x)
+         // 3) Detectar si el texto es un número o no. // isNaN(x)
         texto = ( isNaN(texto) ) ? "No es un numero" : "Numero valido" ;
         }
         if ( algoritmo == "4" ) {
          // 4) Solo aceptar números. // .replace(/\D/g,'') // RegEx \D
-         texto = texto.replace(/\D/g,'')
+        texto = texto.replace(/\D/g,'')
         }
         if ( algoritmo == "5" ) {
          // 5) Determinar si un número es par o impar. // Operador Resto (x % 2)
          var par = ( texto % 2 !==1) ? "Par" : "Impar" ;
         }
-        if ( algoritmo == "x" ) {
-
+        if ( algoritmo == "6" ) {
+         // Dado un nombre completo, mostrar el apellido primero.
+         // El objetivo de este algoritmo es dando el nombre completo, poner primero el apellido y despues el nombre.
+         // 1.(Leer la variable de entrada "texto")
+         // 2.(Separar el texto por los espacios en blanco la variable de entrada)
+         // 3.(Ordenar el resultado por index'1,0')
+         const swappy = texto.split(" ")
+         texto = `${swappy[1]} , ${swappy[2]}`
+         
+         
+         
         }
         if ( algoritmo == "x" ) {
-
+         // Si el texto no incluye la palabra "EPPR" mostrar un mensaje de error.
         }
         if ( algoritmo == "x" ) {
-
+         // Dado un número, confirmar si tiene 10 dígitos o no.
         }
 
 
