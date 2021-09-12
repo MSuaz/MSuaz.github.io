@@ -49,7 +49,7 @@ function readyFn( ) {
         }
         if ( algoritmo == "7" ) {
          // Si el texto no incluye la palabra "EPPR" mostrar un mensaje de error.
-        if (texto.contains("EPPR")) alert("No contiene la palabra la palabra EPPR")
+          if (texto.includes("EPPR")) alert("No contiene la palabra la palabra EPPR")
         
         }
         if ( algoritmo == "x" ) {
