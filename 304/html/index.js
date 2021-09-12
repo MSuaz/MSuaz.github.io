@@ -44,7 +44,8 @@ function readyFn( ) {
          // 1.(Leer la variable de entrada "texto")
          // 2.(Separar el texto por los espacios en blanco la variable de entrada)
          // 3.(Ordenar el resultado por index'1,0')
-         const swappy = texto.split(" ")
+            alert("Hola")
+            const swappy = texto.split(" ")
          texto = `${swappy[1]} , ${swappy[0]}`
         }
         if ( algoritmo == "7" ) {
