@@ -46,12 +46,12 @@ function readyFn( ) {
          // 3.(Ordenar el resultado por index'1,0')
             alert("Hola")
             const swappy = texto.split(" ")
-         texto = `${swappy[1]} , ${swappy[0]}`
+           texto = `${swappy[1]} , ${swappy[0]}`
         }
         if ( algoritmo == "7" ) {
          // Si el texto no incluye la palabra "EPPR" mostrar un mensaje de error.
           alert("Hola")  
-          if (texto.includes("EPPR")) alert("No contiene la palabra la palabra EPPR")
+          if (texto.includes("EPPR")) texto = "No contiene la palabra la palabra EPPR"
         
         }
         if ( algoritmo == "x" ) {
