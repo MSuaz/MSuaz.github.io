@@ -46,12 +46,14 @@ function readyFn( ) {
          // 3.(Ordenar el resultado por index'1,0')
          const swappy = texto.split(" ")
          texto = `${swappy[1]} , ${swappy[0]}`
-         
-         
-         
         }
-        if ( algoritmo == "x" ) {
+        if ( algoritmo == "7" ) {
          // Si el texto no incluye la palabra "EPPR" mostrar un mensaje de error.
+         if (texto < eppr) {
+             texto = "Contiene EPPR"
+            } else {
+             texto = "No contiene EPPR"     
+        
         }
         if ( algoritmo == "x" ) {
          // Dado un número, confirmar si tiene 10 dígitos o no.
