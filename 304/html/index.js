@@ -43,16 +43,13 @@ function readyFn( ) {
          // El objetivo de este algoritmo es dando el nombre completo, poner primero el apellido y despues el nombre.
          // 1.(Leer la variable de entrada "texto")
          // 2.(Separar el texto por los espacios en blanco la variable de entrada)
-         // 3.(Ordenar el resultado por index'1,0')
-            alert("Hola")
+         // 3.(Ordenar el resultado por index'1,0')          
             const swappy = texto.split(" ")
            texto = `${swappy[1]} , ${swappy[0]}`
         }
         if ( algoritmo == "7" ) {
          // Si el texto no incluye la palabra "EPPR" mostrar un mensaje de error.
-          alert("Hola")  
-          if (texto.includes("EPPR")) texto = "No contiene la palabra la palabra EPPR"
-        
+          texto = `El texto ${(texto.includes("EPPR") ? 'Si' : 'No'} contiene EPPR`       
         }
         if ( algoritmo == "x" ) {
          // Dado un número, confirmar si tiene 10 dígitos o no.
