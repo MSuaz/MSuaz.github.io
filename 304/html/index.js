@@ -20,11 +20,11 @@ function readyFn( ) {
         // ACTIVIDADES (Algoritmos):
         if ( algoritmo == "1" ) {
          // 1) Todo el texto en Mayúsculas. // .toUpperCase()
-        texto == texto.toUpperCase()
+          texto == texto.toUpperCase()
         }
         if ( algoritmo == "2" ) {
          // 2) Todo el texto en Minúsculas. // .toLowerCase()
-        texto == texto.toLowerCase()
+          texto == texto.toLowerCase()
         }
         if ( algoritmo == "3" ) {
          // 3) Detectar si el texto es un número o no. // isNaN(x)
@@ -49,7 +49,9 @@ function readyFn( ) {
         }
         if ( algoritmo == "7" ) {
          // Si el texto no incluye la palabra "EPPR" mostrar un mensaje de error.
-          texto = `El texto $(texto.includes("EPPR") ? 'Si' : 'No' contiene EPPR`       
+         var result = `EPPR`
+         result = texto.includes(result) ? "Si contiene EPPR" : "No contiene EPPR" ;
+         texto = result   
         }
         if ( algoritmo == "x" ) {
          // Dado un número, confirmar si tiene 10 dígitos o no.
