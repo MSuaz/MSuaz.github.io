@@ -49,7 +49,7 @@ function readyFn( ) {
         }
         if ( algoritmo == "7" ) {
          // Si el texto no incluye la palabra "EPPR" mostrar un mensaje de error.
-          texto = `El texto ${(texto.includes("EPPR") ? 'Si' : 'No'} contiene EPPR`       
+          texto = `El texto $(texto.includes("EPPR") ? 'Si' : 'No' contiene EPPR`       
         }
         if ( algoritmo == "x" ) {
          // Dado un número, confirmar si tiene 10 dígitos o no.
