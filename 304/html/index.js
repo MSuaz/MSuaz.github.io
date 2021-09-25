@@ -55,9 +55,9 @@ function readyFn( ) {
         }
         if ( algoritmo == "8" ) {
          // Dado un número, confirmar si tiene 10 dígitos o no.
-            var TrueFalse = ( isNaN(texto) ) ? false : true ;
-            var TenDigits = (texto.length == 10) ? true : false ;
-            var resultado = ( TrueFalse = true && TenDigits = true ) ? "Contiene 10 digitos" : "No contiene 10 digitos" ;
+            var isaNumber = ( isNaN(texto) ) ? false : true ;
+            var tenDigits = (texto.length == 10) ? true : false ;
+            var resultado = ( isaNumber == true && tenDigits == true ) ? "Contiene 10 digitos" : "No contiene 10 digitos" ;
             texto = resultado; 
         }
 
