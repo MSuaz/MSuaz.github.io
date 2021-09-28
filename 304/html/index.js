@@ -63,7 +63,7 @@ function readyFn( ) {
 
 
         myFunction(texto)
-    }
+    })
 
 }
 
