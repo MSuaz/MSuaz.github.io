@@ -20,11 +20,11 @@ function readyFn( ) {
         // ACTIVIDADES (Algoritmos):
         if ( algoritmo == "1" ) {
          // 1) Todo el texto en Mayúsculas. // .toUpperCase()
-          texto == texto.toUpperCase()
+          texto = texto.toUpperCase()
         }
         if ( algoritmo == "2" ) {
          // 2) Todo el texto en Minúsculas. // .toLowerCase()
-          texto == texto.toLowerCase()
+          texto = texto.toLowerCase()
         }
         if ( algoritmo == "3" ) {
          // 3) Detectar si el texto es un número o no. // isNaN(x)
